@@ -1,0 +1,45 @@
+html, body, li, ul{
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.header{
+    height: 200px;
+    background-color: slategrey;
+
+}
+.wrapper{
+    max-width: 1024;
+    height: 100;
+    margin: 0 auto;
+}
+
+
+
+.nav_menu{
+    border-top: 1px solid seagreen;
+    border-bottom: 1px solid seagreen;
+    padding: 5px;
+}
+
+.nav_menu li{
+    display: inline;
+}
+
+.nav_menu a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.left_menu li{
+    list-style-type: none;
+}
+
+.left_menu a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.sub_left_menu a{
+    margin-right: 10px;
+}
